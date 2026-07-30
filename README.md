@@ -1,33 +1,58 @@
-# LeetCode Problem #1: Two Sum
+# Day 01 – Python Loop Statements
 
-## Problem Overview
-Solved the **Two Sum** problem on LeetCode using Python.
+> Daily coding practice focused on mastering Python loop statements and iteration.
 
-The task was to find two numbers in an array that add up to a given target value and return their respective indices.
+## Overview
 
-## Approach Used
-Implemented an optimized solution using a **HashMap (Python Dictionary)**:
+This module contains beginner-friendly Python programs that demonstrate the use of `for` loops, the `range()` function, conditional statements, and accumulator variables.
 
-- Iterated through the array only once.
-- Stored each number along with its index.
-- Calculated the complement value (`target - current number`).
-- Checked whether the complement already existed in the dictionary.
-- Returned the indices when a valid pair was found.
+## Programs Implemented
 
-## Complexity Analysis
+| No. | Program |
+|----:|---------|
+| 01 | Print Numbers from 1 to N |
+| 02 | Print Numbers from N to 1 |
+| 03 | Print Even Numbers from 1 to N |
+| 04 | Print Odd Numbers from 1 to N |
+| 05 | Find the Sum of the First N Natural Numbers |
+| 06 | Find the Sum of Even Numbers up to N |
+| 07 | Find the Sum of Odd Numbers up to N |
 
-**Time Complexity:** O(n)  
-**Space Complexity:** O(n)
+## Concepts Covered
 
-## Key Learnings
-- Improved understanding of HashMap-based problem solving.
-- Learned how to reduce time complexity compared to the brute-force approach.
-- Strengthened my problem-solving skills in Data Structures and Algorithms.
+- `for` loop
+- `range()` function
+- Loop iteration
+- Conditional statements
+- Accumulator variables
+- Basic arithmetic operations
 
-## Implementation
-**Language:** Python 🐍
+## Learning Outcome
 
-## Progress Update
-Continuing my LeetCode journey by consistently practicing DSA problems and improving my coding skills.
+After completing these programs, I gained a better understanding of:
 
-#LeetCode #DSA #Python #ProblemSolving #CodingJourney #100DaysOfCode
+- Loop execution and iteration
+- Generating sequences using `range()`
+- Working with even and odd numbers
+- Computing cumulative sums
+- Writing clean and readable Python code
+
+## Folder Structure
+
+```
+Day01_Loops/
+│
+├── 01_print_1_to_n.py
+├── 02_print_n_to_1.py
+├── 03_evennumbers.py
+├── 04_oddnumbers.py
+├── 05_sum_natural_numbers.py
+├── 06_sum_evennumbers.py
+├── 07_sum_oddnumbers.py
+└── README.md
+```
+
+---
+**Language:** Python 3
+
+**Status:** ✔ Completed
