@@ -1,23 +1,51 @@
-# My Learning Journey
+# Count Alphabets in a String
 
-Welcome to my learning repository!
+## Background
+As part of my college's daily technical coding assessments, I solved the **Count Alphabets in a String** problem. The objective was to count the total number of alphabetic characters present in a given string while ignoring digits, spaces, and special characters.
 
-This repository documents my progress in programming, Data Structures & Algorithms (DSA), problem-solving, and technical coding assessments. Each folder contains my solution, approach, and complexity analysis for a specific problem.
+## Problem Statement
+Given a string containing alphabets, digits, spaces, and special characters, count the number of alphabetic characters in the string.
 
-## Repository Structure
+### Example
 
-- Problem-wise folders
-- Python implementations
-- README for each problem
-- Continuous updates as I learn
+**Input:**
 
-## Goals
+```text
+great product 2026
+```
 
-- Improve problem-solving skills
-- Strengthen DSA concepts
-- Prepare for technical interviews and coding assessments
-- Maintain a consistent coding portfolio
+**Output:**
 
----
+```text
+12
+```
 
-⭐ Thank you for visiting my repository!
+## Approach
+* Read the input string.
+* Traverse each character in the string.
+* Check whether the character is an alphabet.
+* Increment the count whenever an alphabetic character is found.
+* Display the final count.
+
+## Complexity Analysis
+
+| Metric               | Complexity |
+| :------------------- | :--------: |
+| **Time Complexity**  |    O(n)    |
+| **Space Complexity** |    O(1)    |
+
+Where `n` is the length of the input string.
+
+## Concepts Used
+* Strings
+* Character Traversal
+* Conditional Statements
+* Built-in String Methods
+
+## Language
+* Python
+
+## Status
+✅ Solved
+
+> This solution is part of my Data Structures and Algorithms (DSA) practice and my college's daily technical coding assessments.
